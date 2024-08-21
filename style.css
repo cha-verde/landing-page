@@ -86,27 +86,27 @@ ul{
     text-align: center;
 }
 
-.boxes{
+.section-two .boxes{
     display: flex;
     justify-content: center;
     gap: 25px;
 }
 
-.box{
+.section-two .box{
     width: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.box .image{
+.section-two .box .image{
     width: 100px;
     height: 100px;
     border-radius: 5px;
     border: #3882F6 solid 2px;
 }
 
-.box p{
+.section-two .box p{
     font-size: 10px;
     text-align: center;
 }
@@ -137,3 +137,30 @@ ul{
 }
 /* end of section three */
 
+/* start of section four */
+
+.section-four{
+    display: flex;
+    justify-content: center;
+}
+
+.section-four .box{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+    background-color: #3882F6;
+    align-items: center;
+    color: white;
+}
+
+.section-four button{
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    border-radius: 5px;
+}
+/* end of section four */
