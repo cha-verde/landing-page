@@ -164,3 +164,14 @@ ul{
     border-radius: 5px;
 }
 /* end of section four */
+
+/* start of footer */
+
+.footer{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+/* end of footer */
