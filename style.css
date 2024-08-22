@@ -23,7 +23,7 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 20px 200px;
 }
 
 .header h1{
@@ -44,7 +44,7 @@ ul{
     background-color: #1F2937;
     display: flex; 
     justify-content: space-between;
-    padding: 20px 100px;
+    padding: 0px 200px 50px;
     align-items: center;
 }
 
@@ -62,8 +62,8 @@ ul{
     color: #e5e7eb;
 }
 .section-one img{
-    width: 300px;
-    height: auto;    
+    width: 400px;
+    height: auto; 
 }
 
 .section-one button{
@@ -73,11 +73,17 @@ ul{
     outline: none;
     border-width: 0;
     border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 /* end of section one */
 
 /* start of section two */
+
+.section-two{
+    padding: 20px 200px;
+}
 
 .section-two h1{
     font-size: 36px;
@@ -89,7 +95,7 @@ ul{
 .section-two .boxes{
     display: flex;
     justify-content: center;
-    gap: 25px;
+    gap: 40px;
 }
 
 .section-two .box{
@@ -102,7 +108,7 @@ ul{
 .section-two .box .image{
     width: 100px;
     height: 100px;
-    border-radius: 5px;
+    border-radius: 15px;
     border: #3882F6 solid 2px;
 }
 
@@ -118,10 +124,11 @@ ul{
     background-color: #e5e7eb;
     display: flex;
     justify-content: center;
+    padding: 75px 200px;
 }
 
 .section-three .content{
-    width: 400px;
+    flex-basis: 500px;
     display: flex;
     flex-direction: column;
 }
@@ -132,7 +139,7 @@ ul{
 
 .section-three h1{
     font-style: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     color: #1f2937;
 }
 /* end of section three */
@@ -142,26 +149,35 @@ ul{
 .section-four{
     display: flex;
     justify-content: center;
+    padding: 50px 200px;
 }
 
 .section-four .box{
     display: flex;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 10px;
-    width: 500px;
+    border-radius: 5px;
     background-color: #3882F6;
     align-items: center;
     color: white;
+    padding: 20px 50px;
+    gap: 50px;
+
 }
 
 .section-four button{
     background-color: #3882F6;
     color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
     border-style: solid;
     border-width: 2px;
     border-color: white;
     border-radius: 5px;
+}
+
+.section-four .title{
+    font-weight:bolder;
 }
 /* end of section four */
 
